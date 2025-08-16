@@ -24,6 +24,7 @@ allprojects {
 }
 
 apply plugin: 'com.android.application'
+import groovy.xml.XmlParser
 
 android {
   namespace = "com.retroarch"
